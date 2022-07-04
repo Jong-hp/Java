@@ -1,0 +1,21 @@
+git
+
+init - git폴더
+add - 저장
+commet - commet의 대상을 설정
+branch - 테스트 할 수 있는 공간 (-d - 삭제)
+reset - 되돌리기
+merge - 병합
+
+
+git(저장소)
+
+1./git_test/파일명 폴더를 만든다.
+2.init을 해서 git local 저장소로 만든다.
+3.git add 파일명 저장한다.
+4.git remote add origin 원격 저장소의 위치를 등록한다.
+5.git push -u origin master 푸쉬로 넣어준다.
+
+git clone 주소창 - 복사 (없는상태에서의 최초폴더카피)
+git fetch origin - 가지고 있는 상태
+git merge origin/master - 병합
