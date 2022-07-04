@@ -27,8 +27,6 @@ branch - 테스트 할 수 있는 공간 (-d - 삭제)
 reset
 merge - 병합
 
-token
-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
 
 git(저장소)
 
