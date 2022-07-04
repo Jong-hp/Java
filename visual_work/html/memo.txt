@@ -26,3 +26,14 @@ commet - commet의 대상을 설정
 branch - 테스트 할 수 있는 공간 (-d - 삭제)
 reset
 merge - 병합
+
+토큰
+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
+
+git(저장소)
+
+1./git_test/파일명 폴더를 만든다.
+2.init을 해서 git local 저장소로 만든다.
+3.git add 파일명 저장한다.
+4.git remote add origin 원격 저장소의 위치를 등록한다.
+5.git push -u origin master 푸쉬로 넣어준다.
