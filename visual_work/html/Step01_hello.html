@@ -1,0 +1,64 @@
+<!DOCTYPE html><!-- 이 문서는 html5 형식의 문서라고 웹브라우저에게 알리는 선언부 -->
+<!-- html 문서는 head 요소와 boby 요소로 구성된다. -->
+<html lang="en">
+<head>
+    <!-- head 요소 안에는 설정 정보나 웹페이지의 제목등으로 구성된다. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 페이지</title>
+    <style>
+        /* 여기는 css 영역 입니다. */
+        /*
+            선택자{
+                css 속성 : 값 ;
+                css 속성2 : 값 ;
+                css 속성3 : 값 ;
+            }
+
+            - 사용할수 있는 css 속성은 이미 정해져 있다 ( 마음대로 지어 낼수 없다 ) 
+            - css 속성에 적용할 값은 이미 정해진 카테고리 내에서 고르는것도 있고
+              또는 크기나 색상같은 값은 정해진 단위에 맞춰서 원하는 값을 지정하면 된다. 
+        */
+        h1{
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<!-- boby 요소에는 주로 화면에 나타낼 요소를 작성한다. -->
+<body>
+    <!-- 
+        여기는 html 영역에서의 주석입니다.
+        웹브라우저가 해석하지 않아요.
+        메모나, 필기를 이 영역에서 작성하면 됩니다.
+    -->
+    <h1>제목입니다.</h1>
+    <img src="images/kim1.png" alt="김구라 이미지" onmouseover="greet();"> 
+    <button onclick="greet();">인사하기</button>
+    <!-- 여기는 로딩전 javascript 영역 입니다 -->
+    <script>
+        //여기는 javascript 영역 입니다. 한줄 주석
+
+        /*
+            여러줄 주석 입니다.
+        */
+
+        /*
+            여기에 작성한 javascript는 페이지 로딩시에 웹브라우저가 해석 합니다.
+        */
+
+        //페이지 로딩시에 알림창으로 여러분의 이름을 띄워 보세요. (alert("박종혁"))
+        alert("박종혁");
+        
+        //페이지 로딩시에 콘솔창으로 숫자 999를 출력해 보세요. (consol.log(999);)
+        console.log(999);
+
+        //greet 이라는 이름의 함수(기능) 만들기
+        function greet(){
+            //함수 안에는 실행할 javascript를 작성 할 수 있다.
+            alert("안녕하세요!");
+        }
+    </script>
+</body>
+</html>

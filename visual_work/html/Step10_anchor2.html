@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step10_anchor2.html</title>
+    <style>
+        /*
+            특정 div 를 가운데 정렬하는 방법
+            1.width 를 결정한다.
+            2.좌우 마진을 auto 로 설정하면 좌우 마진이 길게 설정되어서 가운데 정렬된다.
+        */
+        .container{
+            width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .spacer{
+            height: 500px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body> <!-- 마크업코드 https://docs.emmet.io/cheat-sheet/ -->
+    <div class="container">
+        <h1>동일한 페이지 내에서의 이동(책갈피)</h1>
+        <ul>
+            <li><a href="#one">one</a></li>
+            <li><a href="#two">two</a></li>
+            <li><a href="#three">three</a></li>
+        </ul>
+        <div class="spacer"></div>
+        <p id="one">one Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis nobis veritatis rerum maxime, natus libero vero, ipsam quasi alias ipsa repellendus sequi beatae iste officia est corrupti quibusdam. Repellendus?</p>
+        <div class="spacer"></div>
+        <p id="two">two Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam nemo aspernatur illo, recusandae soluta necessitatibus, nobis beatae rerum ipsa pariatur veritatis nihil veniam perferendis id modi numquam. Ipsum, ut?</p>
+        <div class="spacer"></div>
+        <p id="three">three Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aliquam a rerum eius quibusdam cum suscipit praesentium dolorum. Corrupti error, consectetur nobis dolore aliquam alias voluptatum id quibusdam autem beatae.</p>
+        <div class="spacer"></div>
+    </div>
+</body>
+</html>

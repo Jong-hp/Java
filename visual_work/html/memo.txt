@@ -1,0 +1,28 @@
+html(정보), css(디자인), javascript(언어)
+
+java, jsp, spring
+
+oracle database
+
+vue 등등
+
+<> markup
+
+css 
+
+요소명{
+        속성명 : 적용할 값;
+        }
+        
+font size - 1em = 16px
+
+xxx="" - attribute 속성
+
+git
+
+init - git을 사용
+add - 저장
+commet - commet의 대상을 설정
+branch - 테스트 할 수 있는 공간 (-d - 삭제)
+reset
+merge - 병합
