@@ -19,3 +19,4 @@ git(저장소)
 git clone 주소창 - 복사 (없는상태에서의 최초폴더카피)
 git fetch origin - 가지고 있는 상태
 git merge origin/master - 병합
+git pull origin master - fetch와 merge가 한번에 진행

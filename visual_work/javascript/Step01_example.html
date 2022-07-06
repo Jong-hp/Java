@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step01_example.html</title>
+</head>
+<body>
+    
+    <!-- document.querySelectorAll("p")[0].innner Test="박종혁"; -->
+    <!-- document.querySelector (단일)-->
+    
+    <p>p1 입니다.</p>
+    <p id="one" class="my-class">p2 입니다.</p>
+    <p id="two" class="my-class">p3 입니다.</p>
+    <p class="my-class">p4 입니다.</p>
+    <p>p5 입니다.</p>
+    <button onclick="chenge()">바꾸기</button>
+    <script>
+
+        function chenge(){
+        
+            document.querySelector("#one").innerText="해골";
+        }
+
+            document.querySelectorAll("p")[0].innerText="박종혁";
+       /*
+            바꾸기 버튼을 누르면 id가 one 인 요소의 innerText 를
+            "해골" 로 바뀌도록 프로그래밍 해 보세요.
+        */
+
+    </script>
+    
+</body>
+</html>
