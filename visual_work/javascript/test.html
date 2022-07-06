@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>테스트</title>
+    <title>test</title>
 </head>
 <body>
-    <h1>test</h1>
+    <input type="text" id="num1">
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <input type="text" id="num2">
+    =
+    <span id="result"></span>
     <script>
 
-        let obj={num:1, name:"삼겹", price:"10,000원"};
-        let obj2={name:"삼겹",num:1, price:"10,000원"};
-        
+        function plus(){
+            let num1=document.querySelector("#num1").value;
+            let num2=document.querySelector("#num2").value;
+            let result=Number(num1)+Number(num2);
+            document.querySelector("#result").innerText=result;
+        }
+
     </script>
-    
 </body>
 </html>
