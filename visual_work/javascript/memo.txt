@@ -33,3 +33,26 @@ names.
 
 1+1 - 산술연산
 "글자"+1 연결연산
+let num1=10;, 10.1; - number type
+
+let myName='park';, "park";, `park`; - string type
+
+let isRun=true; - boolean type
+let isWait=false;
+
+let obj={}; - objeck type(순서가 중요치 않고 관리가 편한 타입)
+ex) let mem={num1 + num2};
+
+let arr=[]; - array type (순서가 중요한 타입) ex) let nums=[10, 20 ,30, 40, ..]
+
+let f = function(){javascripts}; - function type (일괄 실행시킬 파일을 모아놓기위함)
+function(){}; = ()=>{};
+
+console.log (참조)
+console.log() (콜)
+
+confirm()
+prompt("입력");
+
+global영역에서 만든함수는 
+local영역에서 만든함수는 지역함수
