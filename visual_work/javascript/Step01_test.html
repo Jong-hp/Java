@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step01_example3.html</title>
+    <title>Step01_test.html</title>
 </head>
 <body>
     <input type="text" id="num1">
@@ -16,14 +16,18 @@
     =
     <span id="result"></span>
     <script>
+        /*
+            페이지 로딩 시점에 함수에서 자주 사용되는 값을
+            미리 얻어내서 변수에 담아 놓은다.
+        */
 
-        //let input1=document.querySelector("#num1");
-        //let input2=document.querySelector("#num2");
+        let input1=document.querySelector("#num1");
+        let input2=document.querySelector("#num2");
 
         function plus(){
             //입력한 값을 읽어온다.
-            let num1=document.querySelector("#num1").value; //ex)let num1=input1.value; (value - 숫자를 나타내는 텍스트 문자열을 숫자로 변환)
-            let num2=document.querySelector("#num2").value; //ex)let num2=input2.value;
+            let num1=input1.value; //(value - 숫자를 나타내는 텍스트 문자열을 숫자로 변환)
+            let num2=input2.value;
             //연산의 결과 값을 얻어낸다.
             let result=Number(num1) + Number(num2);  //Number - 문자를 숫자로 바꿔주는 함수
             // span 요소의 innerText 로 출력하기
@@ -33,22 +37,22 @@
         
         
         let minus=function(){
-            num1=document.querySelector("#num1").value;
-            num2=document.querySelector("#num2").value;
+            let num1=input1.value;
+            let num2=input2.value;
             result=Number(num1) - Number(num2);
             document.querySelector("#result").innerText=result;
         }
 
         let multiply=function(){
-            num1=document.querySelector("#num1").value;
-            num2=document.querySelector("#num2").value;
+            let num1=input1.value;
+            let num2=input2.value;
             result=Number(num1) * Number(num2);
             document.querySelector("#result").innerText=result;
         }
 
         let divide=function(){
-            num1=document.querySelector("#num1").value;
-            num2=document.querySelector("#num2").value;
+            let num1=input1.value;
+            let num2=input.value;
             result=Number(num1) / Number(num2);
             document.querySelector("#result").innerText=result;
         }

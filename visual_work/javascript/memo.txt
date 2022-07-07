@@ -48,8 +48,8 @@ let arr=[]; - array type (순서가 중요한 타입) ex) let nums=[10, 20 ,30, 
 let f = function(){javascripts}; - function type (일괄 실행시킬 파일을 모아놓기위함)
 function(){}; = ()=>{};
 
-console.log (참조)
-console.log() (콜)
+console.log; (참조)
+console.log(); (콜)
 
 confirm()
 prompt("입력");
