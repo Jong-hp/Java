@@ -22,15 +22,15 @@
         인라인 css 는 내부 css 보다 우선시 된다.
     -->
     <div style="width:100px; height:100px; border:1px solid red;">box</div>
-    <div id="myDiv">box</div>
+    <div id="myDiv" style="border: 1px solid blue">box</div>
     <div id="yourDiv">box</div>
     <script>
 
         //id 가 myDiv인 요소의 참조값을 찾아와서 div1 이라는 변수에 담아 놓기
         let div1=document.querySelector("#myDiv");
-        div11.style.while="100px";
-        div11.style.height="100px";
-        div11.style.border="1px solid red";
+        div1.style.width="100px";
+        div1.style.height="100px";
+        div1.style.border="1px solid red";
         //여러 단어로 조합된 css property 는 - 대신에 다음 단어의 첫글자를 대문자로 작성하면 된다.
         div1.style.backgroundColor="yellow";
 

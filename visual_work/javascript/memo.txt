@@ -56,3 +56,15 @@ prompt("입력");
 
 global영역에서 만든함수는 전역함수
 local영역에서 만든함수는 지역함수
+
+function 함수
+
+-특정 시점에 일괄 실행할 javascripts 들을 모아 놓을수 있다.
+-함수를 호출(call) 하면 함수 안쪽으로 실행 순서가 들어간다.
+-함수는 언제 종료되는가?
+    함수 안에 있는 모든 javascripts를 수행하고 더 이상 수행할 javascripts가 없을때
+    수행하다가 return 이라는 예약어를 만나도 종료가 된다.
+
+Math.random() => 0 이상 1 미만의 랜덤한 실수
+Math.random()*10 => 0 이상 10 미만의 랜덤한 실수
+Math.floor(Math.random()*10) => 0 이상 9 이하의 랜덤한 정수

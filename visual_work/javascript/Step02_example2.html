@@ -7,7 +7,7 @@
     <title>Step02_example2.html</title>
     <style>
         #korea{
-            transition: all-left 0.5s linear; /* linear, ease-out(천천히 멈춤) */
+            transition: all-left 0.5s ease-out; /* linear, ease-out(천천히 멈춤) */
         }
     </style>
 </head>
@@ -32,8 +32,8 @@
         let mTop=0;
 
         document.querySelector("#moveRightBottomBtn").addEventListener("click", function(){
-            mLeft=mLeft+10;
-            mTop=mTop+10;
+            mLeft=mLeft+100;
+            mTop=mTop+100;
             document.querySelector("#korea").style.marginLeft=mLeft+"px";
             document.querySelector("#korea").style.marginTop=mTop+"px";
         });
