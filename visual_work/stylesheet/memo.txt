@@ -1,0 +1,17 @@
+220712 - Bootstrap
+
+margin 4, 8, 16, 24, 48
+maring - top(mt), end(me)right), bottom(mb), start(ms)laft)
+data-bs-xxxx="xxxx" javascritp 연결하는 code.
+data-bs-dismiss="alert" 닫는 code.
+data-bs-toggle="collapse" 접었다펼수있는 code. 연결은 id(#)으로 하면 된다.
+data-bs-target="#exampleModal"
+
+row, col(1~12), md, 숫자
+
+Extra small             None                <576
+Small                   sm                  >576
+Medium                  md                  >768
+Large                   lg                  >992
+Extra Large             xl                  >1200
+Extra extra large       xxl                 >1400
