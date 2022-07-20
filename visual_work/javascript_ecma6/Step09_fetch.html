@@ -17,6 +17,7 @@
     <script>
         
         document.querySelector("#moreBtn").addEventListener("click", function(){
+           
             //서버에 friends.json 문서를 요청해서 받아온다.
             fetch("friend.json")
             .then(function(response){
@@ -31,7 +32,38 @@
                     document.querySelector("#friendList").append(li);
                 }
             });
-        })
+
+            console.log("요청함");
+        });
+
+        let str1=`
+            {"num":1, "name":"박종혁", "isMan":true}
+        `;
+
+        let obj1={num:1, name:"박종혁", isMam:true};
+        let obj2=JSON.parse(str1);
+
+        let str2=`
+            ["박종혁","해골"."원숭이"]
+        `;
+        let arr2=JSON.parse(str2);
+
+        /*
+        JSON type
+            {"name":"박종혁", "addr":"송파동", "LFood":["감바스", "토스트", "김밥"]}
+
+        XML type
+            <info>
+                <name>박종혁</name>
+                <addr>송파동</addr>
+                <LFood)
+                    <food>감바스</food>
+                    <food>토스트</food>
+                    <food>김밥</food>
+                </LFood>
+            </info>
+        */
+
     </script>
 </body>
 </html>
