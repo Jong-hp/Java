@@ -17,5 +17,9 @@ public class MainClass03 {
 		mem2.name="해골";
 		mem2.addr="잠실동";
 		
+		//mem1, mem2 에 들어있는 참조값을 이용해서 showInfo() 메소드 호출하기
+		mem1.showInfo();
+		mem2.showInfo();
+		
 	}
 }

@@ -8,8 +8,14 @@ package test.mypac;
  *	필드에 값은 나중에 new Member() 한 이후에 담을 예정
  */
 public class Member {
-	public int num;
+	public int num;				//new Member().num
 	public String name;
 	public String addr;
+	
+	//메소드
+	public void showInfo() {		//new Member().showInfo();
+		//this 는 객체 자신의 참조값을 가리키는 예약어
+		System.out.println("번호"+this.num+" 이름;"+this.name+" 주소;"+this.addr);
+	}
 
 }
