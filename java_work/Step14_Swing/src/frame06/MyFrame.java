@@ -28,7 +28,9 @@ public class MyFrame extends JFrame implements ActionListener{
       //프레임에 추가하기
       add(deleteBtn);
       deleteBtn.addActionListener(this);
-
+      
+      sendBtn.setActionCommand("send");
+      deleteBtn.setActionCommand("delete");
    }
    
    public static void main(String[] args) {
@@ -42,8 +44,11 @@ public class MyFrame extends JFrame implements ActionListener{
 
    @Override
    public void actionPerformed(ActionEvent e) {
-   	  JOptionPane.showMessageDialog(this, "전송합니다.");
+	   String command=e.getActionCommand();
+	   if(command.equals("send")) {
+		   JOptionPane.showMessageDialog(this, "전송합니다.");
+	   }else if(command.equals("delete")) {
+		   JOptionPane.showMessageDialog(this, "삭제합니다.");
+	   }
    }
-   	
-    
 }
