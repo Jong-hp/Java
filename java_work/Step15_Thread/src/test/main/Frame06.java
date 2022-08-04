@@ -13,6 +13,16 @@ import javax.swing.JPanel;
 import test.mypac.CountRunnable;
 import test.mypac.CountThread;
 
+/*
+ * 프레임 하나를 만들고
+ * 프레임에 숫자를 입력하고 실행하기 버튼을 누르면
+ * 구구단 하나가 콘솔창에 출력되는 프로그래밍을 해보세요
+ * 예 ) 2를 jTextField에 입력하고 실행하기 버튼을 누르면
+ * 
+ * 구구단이 출력됨
+ * 단 1초에 1줄씩 출력이 되도록 하고, 출력하는 작업은 새로운 스레드에서 출력하도록 하세요
+ */
+
 public class Frame06 extends JFrame implements ActionListener {
 
 	// 생성자
