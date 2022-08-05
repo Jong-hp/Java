@@ -20,7 +20,7 @@ import java.util.Scanner;
  * JTextArea에 출력하도록 해보세요.
  */
 
-public class MainClass17 {
+public class Quiz01 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
