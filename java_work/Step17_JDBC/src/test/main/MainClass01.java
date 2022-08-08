@@ -29,6 +29,7 @@ public class MainClass01 {
 		ResultSet rs = null;
 		try {
 			// 실행할 sql 문
+			
 			String sql = "SELECT num,name,addr FROM member" + " ORDER BY num ASC";
 			// PreparedStatement 객체의 참조값 얻어오기
 			pstmt = conn.prepareStatement(sql);
